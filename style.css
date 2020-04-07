@@ -145,6 +145,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -173,8 +185,8 @@ button{
 .icon-md{
 	font-size:30px!important;
 }
-.icon-xl{
-	font-size:100px!important;
+.icon-lg{
+	font-size:60px!important;
 }
 
 
@@ -239,6 +251,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-bloc-2-style{
 	font-size:21px;
+	width:67.91%;
 }
 .img-bloc-3-style{
 	height:105px;
@@ -247,6 +260,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-spyr-style{
 	width:105px;
 	height:105px;
+}
+.h3-style{
+	width:67.91%;
 }
 
 /* = Colour
@@ -333,68 +349,89 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	.img-benne-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-bloc-3-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-6-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-spyr-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-nico-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-faus-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-dagua-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
+	}
+	.img-holg-style{
+		width:105px;
+		height:105px;
+	}
+	.h2-style{
+		font-size:28px;
+	}
+	.h3-springer-lncs-style{
+		font-size:24px;
 	}
 	
 }
 
 @media (max-width: 767px){
 	.img-dagua-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-nico-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-bloc-3-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-6-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-holg-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-faus-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-benne-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
 	}
 	.img-spyr-style{
-		width:150px;
-		height:150px;
+		width:105px;
+		height:105px;
+	}
+	.p-bloc-2-style{
+		width:69.28%;
+	}
+	.h3-style{
+		width:70.21%;
+	}
+	
+	/* Small Text Margin Offsets */
+	.mg-clear-sm{
+		margin:0;
 	}
 	
 }
