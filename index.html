@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6885">
-	<link rel="stylesheet" type="text/css" href="style.css?8953">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5279">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?4770">
+	<link rel="stylesheet" type="text/css" href="style.css?7388">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?1852">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
-	<script src="./js/jquery-3.3.1.min.js?3661"></script>
-	<script src="./js/bootstrap.bundle.min.js?774"></script>
-	<script src="./js/blocs.min.js?3962"></script>
+	<script src="./js/jquery-3.3.1.min.js?727"></script>
+	<script src="./js/bootstrap.bundle.min.js?5776"></script>
+	<script src="./js/blocs.min.js?14"></script>
 	<script src="./js/lazysizes.min.js" defer></script>
     <title>Home</title>
 
@@ -34,12 +34,22 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bloc-fill-screen bgc-lavender-web l-bloc" id="bloc-0">
+<div class="bloc bloc-fill-screen bgc-lavender-web l-bloc " id="bloc-0">
 	<div class="container fill-bloc-top-edge">
 		<div class="row">
 			<div class="col-12">
 				<nav class="navbar row navbar-expand-md navbar-light" role="navigation">
 					<a class="navbar-brand" href="./">DCL</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse navbar-1">
+						<ul class="site-navigation nav navbar-nav ml-auto">
+							<li class="nav-item">
+								<a href="./" class="nav-link">Home</a>
+							</li>
+						</ul>
+					</div>
 				</nav>
 			</div>
 		</div>
@@ -98,7 +108,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-				<h3 class="mg-md mx-auto d-block text-lg-center">
+				<h3 class="mg-md mx-auto d-block text-lg-center" id="programme">
 					<strong>Preliminary Program</strong>
 				</h3>
 				<p class="mx-auto d-block text-lg-left p-bloc-2-style btn-resize-mode">
@@ -130,7 +140,7 @@
 						</p>
 					</div>
 					<div class="col-lg-3">
-						<img src="img/lazyload-ph.png" data-src="img/spyros.jpg" class="img-fluid rounded-circle lazyload" />
+						<img src="img/lazyload-ph.png" data-src="img/spyros.jpg" class="img-fluid rounded-circle img-spyr-style mx-auto d-block lazyload" />
 					</div>
 				</div>
 				<div class="row voffset">
@@ -143,7 +153,7 @@
 						</p>
 					</div>
 					<div class="col-lg-3">
-						<img src="img/lazyload-ph.png" data-src="img/bennett.jpg" class="img-fluid rounded-circle lazyload" />
+						<img src="img/lazyload-ph.png" data-src="img/bennett.jpg" class="img-fluid rounded-circle img-benne-style mx-auto d-block lazyload" />
 					</div>
 				</div>
 				<div class="row voffset">
@@ -156,7 +166,7 @@
 						</p>
 					</div>
 					<div class="col-lg-3">
-						<img src="img/lazyload-ph.png" data-src="img/fausto.jpg" class="img-fluid rounded-circle lazyload" />
+						<img src="img/lazyload-ph.png" data-src="img/fausto.jpg" class="img-fluid rounded-circle img-faus-style mx-auto d-block lazyload" />
 					</div>
 				</div>
 				<div class="row voffset">
@@ -169,7 +179,7 @@
 						</p>
 					</div>
 					<div class="col-lg-3">
-						<img src="img/lazyload-ph.png" data-src="img/holger.jpg" class="img-fluid rounded-circle lazyload" />
+						<img src="img/lazyload-ph.png" data-src="img/holger.jpg" class="img-fluid rounded-circle img-holg-style mx-auto d-block lazyload" />
 					</div>
 				</div>
 			</div>
@@ -178,7 +188,7 @@
 					<div class="col-12">
 						<div class="row voffset">
 							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/jorge.jpg" class="img-fluid rounded-circle lazyload" />
+								<img src="img/lazyload-ph.png" data-src="img/jorge.jpg" class="img-fluid rounded-circle img-6-style mx-auto d-block lazyload" />
 							</div>
 							<div class="col align-self-center">
 								<h4 class="text-center text-lg-left mg-sm">
@@ -191,7 +201,7 @@
 						</div>
 						<div class="row voffset">
 							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/wenqi.jpg" class="img-fluid rounded-circle lazyload" />
+								<img src="img/lazyload-ph.png" data-src="img/wenqi.jpg" class="img-fluid rounded-circle img-bloc-3-style mx-auto d-block lazyload" />
 							</div>
 							<div class="col align-self-center">
 								<h4 class="text-center text-lg-left mg-sm">
@@ -204,7 +214,7 @@
 						</div>
 						<div class="row voffset">
 							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/nicola.jpg" class="img-fluid rounded-circle lazyload" />
+								<img src="img/lazyload-ph.png" data-src="img/nicola.jpg" class="img-fluid rounded-circle img-nico-style mx-auto d-block lazyload" />
 							</div>
 							<div class="col align-self-center">
 								<h4 class="text-center text-lg-left mg-sm">
@@ -217,7 +227,7 @@
 						</div>
 						<div class="row voffset">
 							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/daguang.jpg" class="img-fluid rounded-circle lazyload" />
+								<img src="img/lazyload-ph.png" data-src="img/daguang.jpg" class="img-fluid rounded-circle img-dagua-style mx-auto d-block lazyload" />
 							</div>
 							<div class="col align-self-center">
 								<h4 class="text-center text-lg-left mg-sm">
@@ -241,7 +251,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="img/lazyload-ph.png" data-src="img/logo_Springer2.png" class="img-fluid mx-auto d-block img-style lazyload " />
+				<img src="img/lazyload-ph.png" data-src="img/logo_Springer2.png" class="img-fluid mx-auto d-block img-style lazyload" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">

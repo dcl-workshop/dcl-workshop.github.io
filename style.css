@@ -241,7 +241,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:21px;
 }
 .img-bloc-3-style{
-	height:74px;
+	height:105px;
+	width:105px;
+}
+.img-spyr-style{
+	width:105px;
+	height:105px;
 }
 
 /* = Colour
@@ -325,3 +330,72 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+
+@media (max-width: 991px){
+	.img-benne-style{
+		width:150px;
+		height:150px;
+	}
+	.img-bloc-3-style{
+		width:150px;
+		height:150px;
+	}
+	.img-6-style{
+		width:150px;
+		height:150px;
+	}
+	.img-spyr-style{
+		width:150px;
+		height:150px;
+	}
+	.img-nico-style{
+		width:150px;
+		height:150px;
+	}
+	.img-faus-style{
+		width:150px;
+		height:150px;
+	}
+	.img-dagua-style{
+		width:150px;
+		height:150px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.img-dagua-style{
+		width:150px;
+		height:150px;
+	}
+	.img-nico-style{
+		width:150px;
+		height:150px;
+	}
+	.img-bloc-3-style{
+		width:150px;
+		height:150px;
+	}
+	.img-6-style{
+		width:150px;
+		height:150px;
+	}
+	.img-holg-style{
+		width:150px;
+		height:150px;
+	}
+	.img-faus-style{
+		width:150px;
+		height:150px;
+	}
+	.img-benne-style{
+		width:150px;
+		height:150px;
+	}
+	.img-spyr-style{
+		width:150px;
+		height:150px;
+	}
+	
+}
+
