@@ -7,18 +7,18 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6241">
-	<link rel="stylesheet" type="text/css" href="style.css?6188">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?4549">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5085">
+	<link rel="stylesheet" type="text/css" href="style.css?263">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?9760">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
-	<script src="./js/jquery-3.3.1.min.js?9852"></script>
-	<script src="./js/bootstrap.bundle.min.js?2853"></script>
-	<script src="./js/blocs.min.js?4945"></script>
+	<script src="./js/jquery-3.3.1.min.js?6413"></script>
+	<script src="./js/bootstrap.bundle.min.js?6024"></script>
+	<script src="./js/blocs.min.js?7153"></script>
 	<script src="./js/lazysizes.min.js" defer></script>
     <title>Home</title>
 
@@ -39,36 +39,23 @@
 		<div class="row">
 			<div class="col-12">
 				<nav class="navbar row navbar-expand-md navbar-light" role="navigation">
-					<a class="navbar-brand" href="./">DCL</a>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse navbar-1">
-						<ul class="site-navigation nav navbar-nav ml-auto">
-							<li class="nav-item">
-								<a href="./" class="nav-link">Home</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+				</nav><img src="img/lazyload-ph.png" data-src="img/miccai-2020-logo.png" class="img-fluid img-miccai-2020-lo-style float-lg-right lazyload" height="100" width="100" />
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 align-self-center col-md-7">
-				<h1 class="mg-md text-center text-md-left h1-style">
-					DCL
-				</h1>
-				<h3 class="mg-md float-none text-center text-md-left">
+				<img src="img/lazyload-ph.png" data-src="img/DCL-logo-black.png" class="img-fluid mx-auto d-block lazyload" />
+				<h3 class="mg-md float-none text-center text-md-left h3-bloc-0-style text-lg-center">
 					1st MICCAI Workshop on <br>“Distributed And Collaborative Learning”
 				</h3>
-				<div class="text-center text-lg-left text-md-left d-block">
+				<div class="text-center text-md-left d-block text-lg-center">
 					<a href="./" class="btn btn-lg btn-wire">Submit</a>
 				</div>
 			</div>
-			<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5">
-				<img src="img/lazyload-ph.png" data-src="img/fede.png" class="img-fluid mx-auto d-block lazyload" />
+			<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5 align-self-center">
+				<img src="img/lazyload-ph.png" data-src="img/fede.png" class="img-fluid mx-auto d-block mg-md img-bloc-0-style lazyload" />
 			</div>
 		</div>
 	</div>
@@ -93,9 +80,34 @@
 <div class="bloc l-bloc" id="bloc-1">
 	<div class="container bloc-lg">
 		<div class="row">
+			<div class="col-md-6">
+				<h3 class="mg-md">
+					Important Dates
+				</h3>
+				<p>
+					- Submission Deadline: TBC <br>- Notification of Acceptance: TBC <br>- Camera Ready: TBC <br>- Workshop Date: TBC
+				</p>
+			</div>
+			<div class="col-md-6">
+				<h3 class="mg-md">
+					News
+				</h3>
+				<p>
+					- The DCL Workshop has been approved for MICCAI 2020&nbsp;
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-1 -->
+<div class="bloc l-bloc " id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
 			<div class="col">
 				<p class="p-style">
-					Deep learning, AI's fastest-growing field, empowers enormous advances in applications in science and real-world applications. It has been widely accepted that it is possible to achieve better models with growing amounts of data. However, enabling learning on these huge datasets or training huge models in a timely manner requires to distribute the learning on several devices. One particularity in the medical imaging setting is that data sharing across different institutions often becomes impractical due to strict privacy regulations, making the collection of large-scale centralized datasets practically impossible. <br><br>Some of the problems, therefore, become: how can we train models in a distributed way on several devices? And is it possible to achieve models as strong as those that can be trained on large centralized datasets without sharing data and breaching the restrictions on privacy and property? Distributed machine learning, including Federated Learning (FL) approaches, could be helpful to solve the latter problem. Different institutions can contribute to building more powerful models by performing collaborative training without sharing any training data. The trained model can be distributed across various institutions but not the actual data. We hope that with FL and other forms of distributed and collaborative learning, the objective of training better, more robust models of higher clinical utility while still protecting the privacy within the data can be achieved. <br><br>Through the first MICCAI Workshop on Distributed And Collaborative Learning” (DCL) we aim to provide a discussion forum to compare, evaluate and discuss methodological advancements and ideas around federated, distributed, and collaborative learning schemes that can provide a vehicle to move Machine Learning (ML) and Deep Learning (DL) approaches into the clinic.<br>
+					Deep learning, AI's fastest-growing field, empowers enormous scientific advances, with key approcations in healthcare. It has been widely accepted that it is possible to achieve better models with growing amounts of data. However, enabling learning on these huge datasets or training huge models in a timely manner requires to distribute the learning on several devices. One particularity in the medical domain, and in the medical imaging setting is that data sharing across different institutions often becomes impractical due to strict privacy regulations, making the collection of large-scale centralized datasets practically impossible. <br><br>Some of the problems, therefore, become: how can we train models in a distributed way on several devices? And is it possible to achieve models as strong as those that can be trained on large centralized datasets without sharing data and breaching the restrictions on privacy and property? Distributed machine learning, including Federated Learning (FL) approaches, could be helpful to solve the latter problem. Different institutions can contribute to building more powerful models by performing collaborative training without sharing any training data. The trained model can be distributed across various institutions but not the actual data. We hope that with FL and other forms of distributed and collaborative learning, the objective of training better, more robust models of higher clinical utility while still protecting the privacy within the data can be achieved. <br><br>Through the first MICCAI Workshop on Distributed And Collaborative Learning” (DCL) we aim to provide a discussion forum to compare, evaluate and discuss methodological advancements and ideas around federated, distributed, and collaborative learning schemes when applied to heathcre, providing a vehicle to move Machine Learning (ML) and Deep Learning (DL) approaches into the clinic.<br>
 				</p>
 			</div>
 		</div>
@@ -128,6 +140,73 @@
 				<h3 class="mg-md text-center">
 					<strong>Meet the Organising Team</strong><br>
 				</h3>
+			</div>
+			<div class="col-md-6">
+				<div class="row voffset">
+					<div class="col order-2 align-self-center">
+						<h4 class="text-center mg-sm text-lg-left">
+							Shadi Albarqouni
+						</h4>
+						<p class="text-center text-lg-left">
+							TUM/ETH Zürich
+						</p>
+					</div>
+					<div class="col-lg-3">
+						<img src="img/lazyload-ph.png" data-src="img/shadi.jpg" class="img-fluid rounded-circle img-holg-style mx-auto d-block lazyload" />
+					</div>
+				</div>
+				<div class="row voffset">
+					<div class="col-lg-3">
+						<img src="img/lazyload-ph.png" data-src="img/jorge.jpg" class="img-fluid rounded-circle img-6-style mx-auto d-block lazyload" />
+					</div>
+					<div class="col align-self-center">
+						<h4 class="text-center text-lg-left mg-sm">
+							M. Jorge Cardoso
+						</h4>
+						<p class="text-center text-lg-left">
+							King&rsquo;s College London
+						</p>
+					</div>
+				</div>
+				<div class="row voffset">
+					<div class="col-lg-3">
+						<img src="img/lazyload-ph.png" data-src="img/wenqi.jpg" class="img-fluid rounded-circle img-bloc-3-style mx-auto d-block lazyload" />
+					</div>
+					<div class="col align-self-center">
+						<h4 class="text-center text-lg-left mg-sm">
+							Wenqi Li
+						</h4>
+						<p class="text-center text-lg-left">
+							NVIDIA
+						</p>
+					</div>
+				</div>
+				<div class="row voffset">
+					<div class="col-lg-3">
+						<img src="img/lazyload-ph.png" data-src="img/nicola.jpg" class="img-fluid rounded-circle img-nico-style mx-auto d-block lazyload" />
+					</div>
+					<div class="col align-self-center">
+						<h4 class="text-center text-lg-left mg-sm">
+							Nicola Rieke
+						</h4>
+						<p class="text-center text-lg-left">
+							NVIDIA
+						</p>
+					</div>
+				</div>
+				<div class="row voffset">
+					<div class="col-lg-3">
+						<img src="img/lazyload-ph.png" data-src="img/daguang.jpg" class="img-fluid rounded-circle img-dagua-style mx-auto d-block lazyload" />
+					</div>
+					<div class="col align-self-center">
+						<h4 class="text-center text-lg-left mg-sm">
+							Daguang Xu
+						</h4>
+						<p class="text-center text-lg-left">
+							NVIDIA
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="row voffset">
@@ -183,64 +262,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-12">
-						<div class="row voffset">
-							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/jorge.jpg" class="img-fluid rounded-circle img-6-style mx-auto d-block lazyload" />
-							</div>
-							<div class="col align-self-center">
-								<h4 class="text-center text-lg-left mg-sm">
-									M. Jorge Cardoso
-								</h4>
-								<p class="text-center text-lg-left">
-									King&rsquo;s College London
-								</p>
-							</div>
-						</div>
-						<div class="row voffset">
-							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/wenqi.jpg" class="img-fluid rounded-circle img-bloc-3-style mx-auto d-block lazyload" />
-							</div>
-							<div class="col align-self-center">
-								<h4 class="text-center text-lg-left mg-sm">
-									Wenqi Li
-								</h4>
-								<p class="text-center text-lg-left">
-									NVIDIA
-								</p>
-							</div>
-						</div>
-						<div class="row voffset">
-							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/nicola.jpg" class="img-fluid rounded-circle img-nico-style mx-auto d-block lazyload" />
-							</div>
-							<div class="col align-self-center">
-								<h4 class="text-center text-lg-left mg-sm">
-									Nicola Rieke
-								</h4>
-								<p class="text-center text-lg-left">
-									NVIDIA
-								</p>
-							</div>
-						</div>
-						<div class="row voffset">
-							<div class="col-lg-3">
-								<img src="img/lazyload-ph.png" data-src="img/daguang.jpg" class="img-fluid rounded-circle img-dagua-style mx-auto d-block lazyload" />
-							</div>
-							<div class="col align-self-center">
-								<h4 class="text-center text-lg-left mg-sm">
-									Daguang Xu
-								</h4>
-								<p class="text-center text-lg-left">
-									NVIDIA
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>
@@ -289,7 +310,7 @@
 <!-- bloc-6 -->
 <div class="bloc bgc-lavender-web l-bloc" id="bloc-6">
 	<div class="container bloc-lg">
-		<div class="row ">
+		<div class="row">
 			<div class="offset-sm-2 col-6 col-sm-4 col-md-2 offset-md-4">
 				<div class="text-center">
 					<a href="http://twitter.com"><span class="fa fa-twitter-square icon-lg"></span></a>
