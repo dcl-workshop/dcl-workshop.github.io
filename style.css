@@ -234,7 +234,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Source Sans Pro";
-	color:#005392!important;
+	color:#424242!important;
 }
 .container{
 	max-width:1140px;
@@ -263,6 +263,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-style{
 	width:67.91%;
+}
+.h3-bloc-0-style{
+	font-size:24px;
+}
+.img-miccai-2020-lo-style{
+	width:200px;
+}
+.img-bloc-0-style{
+	width:400px;
 }
 
 /* = Colour
@@ -386,6 +395,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h3-springer-lncs-style{
 		font-size:24px;
 	}
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		color:#424242!important;
+	}
 	
 }
 
@@ -428,10 +440,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h3-style{
 		width:70.21%;
 	}
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		color:#424242!important;
+	}
 	
 	/* Small Text Margin Offsets */
 	.mg-clear-sm{
 		margin:0;
+	}
+	
+}
+
+@media (max-width: 575px){
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		color:#424242!important;
 	}
 	
 }
