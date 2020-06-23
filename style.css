@@ -26,7 +26,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	width:100%;
 	clear:both;
 	background: 50% 50% no-repeat;
-	padding:0 50px;
+	padding:0 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -43,7 +43,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* Sizes */
 
 .bloc-lg{
-	padding:100px 50px;
+	padding:50px 50px;
 }
 
 /* = Full Screen Blocs 
