@@ -80,7 +80,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
-	color:rgba(0,0,0,.5);
+	color:#424242;
 }
 .d-bloc .card button:hover,.l-bloc button:hover{
 	color:rgba(0,0,0,.7);
@@ -114,6 +114,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* = NavBar
 -------------------------------------------------------------- */
+
+.navbar-brand
+{
+  font-size: 20px;
+}
+
+
+nav{
+	background-color:#CEE4F5;
+}
+
 
 .hero .hero-nav{
 	padding-left:inherit;

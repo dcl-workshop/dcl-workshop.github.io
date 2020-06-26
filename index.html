@@ -30,19 +30,43 @@
     
 </head>
 <body>
+
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
+		<div class="container">
+			<a href="#" class="navbar-brand  mx-3" href=""><img src="img/DCL-logo_black_small.png"> MICCAI 2020 - DCL </a>
+			<div class="col-sm-1 d-none d-sm-block"></div>
+
+			<!-- Toggler/collapsible Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<ul class="navbar-nav collapse navbar-collapse mr-auto" id="navbarNav">
+				<li class="nav-item">
+					<a class="nav-link" href="#bloc-DATES">Important Dates</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bloc-CFP">Call for Papers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bloc-PROGRAM">Program</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bloc-ORGANISATION">Organisation</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bloc-SUBMISSION">Submission</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+
 <!-- Main container -->
 <div class="page-container">
     
 <!-- bloc-0 -->
 <div class="bloc bloc-fill-screen bgc-lavender-web l-bloc" id="bloc-0">
-	<div class="container fill-bloc-top-edge">
-		<div class="row">
-			<div class="col-12">
-				<nav class="navbar row navbar-expand-md navbar-light" role="navigation">
-				</nav><img src="img/lazyload-ph.png" data-src="img/miccai-2020-logo.png" class="img-fluid img-miccai-2020-lo-style float-lg-right lazyload" height="100" width="100" />
-			</div>
-		</div>
-	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 align-self-center col-md-7">
@@ -51,7 +75,7 @@
 					1st MICCAI Workshop on <br>“Distributed And Collaborative Learning”
 				</h3>
 				<div class="text-center text-md-left d-block text-lg-center">
-					<a href="https://cmt3.research.microsoft.com/DCL2020/" target="_blank" class="btn btn-lg btn-wire">Submit</a>
+					<a href="https://cmt3.research.microsoft.com/DCL2020/" rel="noopener noreferrer" target="_blank" class="btn btn-lg btn-wire">Submit</a>
 				</div>
 			</div>
 			<div class="col-lg-5 offset-lg-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5 align-self-center">
@@ -76,8 +100,8 @@
 <!-- ScrollToTop Button END-->
 
 
-<!-- bloc-1 -->
-<div class="bloc l-bloc" id="bloc-1">
+<!-- bloc-DATES -->
+<div class="bloc l-bloc" id="bloc-DATES">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-6">
@@ -93,16 +117,19 @@
 					News
 				</h3>
 				<p>
-					[May] MICCAI's workshop schedule has been announced. The DCL workshop will take place on October 4 in the afternoon. <br>[April] Our first keynote speaker is confirmed! Dzung Pham will talk about governance and ethics in the era of distributed learning. <br>[March] The DCL Workshop has been approved for MICCAI 2020 &nbsp;
+					[June] Submission deadline has been updated. Please submit your paper <a href="https://cmt3.research.microsoft.com/DCL2020/" rel="noopener noreferrer" target="_blank"><font color="#ff0000">here</font></a>. All MICCAI workshops - including DCL - will take place <font color="#ff0000">virtually</font> this year. <br>
+					[May] MICCAI's workshop schedule has been announced. The DCL workshop will take place on October 4 in the afternoon. <br>
+					[April] Our first keynote speaker is confirmed! Dzung Pham will talk about governance and ethics in the era of distributed learning. <br>
+					[March] The DCL Workshop has been approved for MICCAI 2020 &nbsp;
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-1 END -->
+<!-- bloc-DATES END -->
 
-<!-- bloc-1 -->
-<div class="bloc l-bloc " id="bloc-10">
+<!-- bloc-overview -->
+<div class="bloc l-bloc " id="bloc-overview">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-12 col-lg-6 offset-lg-3">
@@ -115,11 +142,23 @@
 		<div class="row">
 			<div class="col">
 				<p class="p-style">
-					Deep learning empowers enormous scientific advances, with key approcations in healthcare. It has been widely accepted that it is possible to achieve better models with growing amounts of data. However, enabling learning on these huge datasets or training huge models in a timely manner requires to distribute the learning on several devices. One particularity in the medical domain, and in the medical imaging setting is that data sharing across different institutions often becomes impractical due to strict privacy regulations, making the collection of large-scale centralized datasets practically impossible. <br><br>Some of the problems, therefore, become: how can we train models in a distributed way on several devices? And is it possible to achieve models as strong as those that can be trained on large centralized datasets without sharing data and breaching the restrictions on privacy and property? Distributed machine learning, including Federated Learning (FL) approaches, could be helpful to solve the latter problem. Different institutions can contribute to building more powerful models by performing collaborative training without sharing any training data. The trained model can be distributed across various institutions but not the actual data. We hope that with FL and other forms of distributed and collaborative learning, the objective of training better, more robust models of higher clinical utility while still protecting the privacy within the data can be achieved. <br><br>Through the first MICCAI Workshop on Distributed And Collaborative Learning” (DCL) we aim to provide a discussion forum to compare, evaluate and discuss methodological advancements and ideas around federated, distributed, and collaborative learning schemes that are applicable in the medical domain.<br><br> Contact: nrieke(at)nvidia.com<br>
+					Deep learning empowers enormous scientific advances, with key approcations in healthcare. It has been widely accepted that it is possible to achieve better models with growing amounts of data. However, enabling learning on these huge datasets or training huge models in a timely manner requires to distribute the learning on several devices. One particularity in the medical domain, and in the medical imaging setting is that data sharing across different institutions often becomes impractical due to strict privacy regulations, making the collection of large-scale centralized datasets practically impossible. <br><br>Some of the problems, therefore, become: how can we train models in a distributed way on several devices? And is it possible to achieve models as strong as those that can be trained on large centralized datasets without sharing data and breaching the restrictions on privacy and property? Distributed machine learning, including Federated Learning (FL) approaches, could be helpful to solve the latter problem. Different institutions can contribute to building more powerful models by performing collaborative training without sharing any training data. The trained model can be distributed across various institutions but not the actual data. We hope that with FL and other forms of distributed and collaborative learning, the objective of training better, more robust models of higher clinical utility while still protecting the privacy within the data can be achieved. <br>
 				</p>
 			</div>
 		</div>
 		<p></p>
+		<div class="col-md-12 align-self-center">
+			<a href="https://miccai2020.org"  rel="noopener noreferrer" target="_blank">
+				<img src="img/lazyload-ph.png" data-src="img/miccai-2020-logo.png" class="img-fluid mx-auto d-block img-style mg-md lazyload"/>
+			</a>
+		</div>
+	</div>
+</div>
+<!-- bloc-overview END -->
+
+<!-- bloc-CFP -->
+<div class="bloc l-bloc bgc-lavender-web " id="bloc-CFP">
+	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-12 col-lg-6 offset-lg-3">
 				<h3 class="mg-md text-center">
@@ -149,13 +188,13 @@
 					</ul>
 				</div>
 			</div>
-	</div>
+		</div>
 	</div>
 </div>
-<!-- bloc-1 END -->
+<!-- bloc-CFP END -->
 
-<!-- bloc-2 -->
-<div class="bloc bgc-lavender-web l-bloc" id="bloc-2">
+<!-- bloc-PROGRAM -->
+<div class="bloc l-bloc" id="bloc-PROGRAM">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
@@ -167,6 +206,13 @@
 				</p>
 			</div>
 		</div>
+	</div>
+</div>
+<!-- bloc-PROGRAM END -->
+
+<!-- bloc-KEYNOTE -->
+<div class="bloc l-bloc bgc-lavender-web" id="bloc-KEYNOTE">
+	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-12 col-lg-6 offset-lg-3">
 				<h3 class="mg-md text-center">
@@ -194,55 +240,10 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-2 END -->
+<!-- bloc-KEYNOTE END -->
 
-
-<div class="bloc l-bloc" id="bloc-3">
-		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-md-12 col-lg-6 offset-lg-3">
-					<h3 class="mg-md text-center">
-						<strong>Submission Guidelines</strong><br>
-					</h3>
-				</div>
-				<div class="row">
-					<div class="col">
-						<p class="p-style">
-							<b>Format: </b>
-							Papers will be submitted electronically following Lecture Notes in Computer Science (LNCS) style of up to 8 + 2 pages (same as MICCAI 2020 format).
-							Submissions exceeding page limit will be rejected without review.
-							Latex style files can be found from Springer, which also contains  Word instructions. The file format for submissions is Adobe Portable Document Format (PDF). Other formats will not be accepted.
-						</p>
-						<p class="p-style">
-							<b>Double Blind Review: </b>
-							DCL reviewing is double blind. Please review the Anonymity guidelines of MICCAI main conference, and confirm that the author field does not break anonymity.
-						</p>
-						<p class="p-style">
-							<b>Paper Submission: </b>
-							DCL uses the CMT system for online submission.
-						</p>
-						<p class="p-style">
-							<b>Supplemental Material: </b>
-							Supplemental material submission is optional, following same deadline as the main paper. Contents of the supplemental material would be referred to appropriately in the paper, while reviewers are not obliged to read them.
-						</p>
-						<p class="p-style">
-							<b>Submission Originality: </b>
-							Submissions should be original, no paper of substantially similar content should be under peer review or has been accepted for a publication elsewhere (conference/journal, not including archived work).
-						</p>
-						<p class="p-style">
-							<b>Proceedings: </b>
-							The proceedings of DCL 2020 will be published as part of the joint MICCAI Workshops proceedings with Springer (LNCS)
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
-<!-- bloc-3 -->
-<div class="bloc l-bloc" id="bloc-3">
+<!-- bloc-ORGANISATION  -->
+<div class="bloc l-bloc " id="bloc-ORGANISATION">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-12 col-lg-6 offset-lg-3">
@@ -372,12 +373,61 @@
 				</div>
 			</div>
 		</div>
+		<div style="text-align:center; margin-top: 40px;"> Contact: nrieke(at)nvidia.com</div>
 	</div>
 </div>
-<!-- bloc-3 END -->
+<!-- bloc-ORGANISATION END -->
 
-<!-- bloc-4 -->
-<div class="bloc bgc-lavender-web l-bloc" id="bloc-4">
+<!-- bloc-SUBMISSION -->
+<div class="bloc l-bloc bgc-lavender-web" id="bloc-SUBMISSION">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-md-12 col-lg-6 offset-lg-3">
+				<h3 class="mg-md text-center">
+					<strong>Submission Guidelines</strong><br>
+				</h3>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="p-style">
+						<b>Format: </b>
+						Papers will be submitted electronically following Lecture Notes in Computer Science (LNCS) style of up to 8 + 2 pages (same as MICCAI 2020 format).
+						Submissions exceeding page limit will be rejected without review.
+						Latex style files can be found from Springer, which also contains  Word instructions. The file format for submissions is Adobe Portable Document Format (PDF). Other formats will not be accepted.
+					</p>
+					<p class="p-style">
+						<b>Double Blind Review: </b>
+						DCL reviewing is double blind. Please review the Anonymity guidelines of MICCAI main conference, and confirm that the author field does not break anonymity.
+					</p>
+					<p class="p-style">
+						<b>Paper Submission: </b>
+						DCL uses the CMT system for online submission.
+					</p>
+					<p class="p-style">
+						<b>Supplemental Material: </b>
+						Supplemental material submission is optional, following same deadline as the main paper. Contents of the supplemental material would be referred to appropriately in the paper, while reviewers are not obliged to read them.
+					</p>
+					<p class="p-style">
+						<b>Submission Originality: </b>
+						Submissions should be original, no paper of substantially similar content should be under peer review or has been accepted for a publication elsewhere (conference/journal, not including archived work).
+					</p>
+					<p class="p-style">
+						<b>Proceedings: </b>
+						The proceedings of DCL 2020 will be published as part of the joint MICCAI Workshops proceedings with Springer (LNCS)
+					</p>
+				</div>
+			</div>
+			<div class="text-center text-md-left d-block text-lg-center">
+				<a href="https://cmt3.research.microsoft.com/DCL2020/"  rel="noopener noreferrer" target="_blank" class="btn btn-lg btn-wire">Submit Your Paper</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- bloc-SUBMISSION END -->
+
+<!-- bloc-PUBLICATION -->
+<div class="bloc l-bloc" id="bloc-PUBLICATION">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
@@ -397,10 +447,10 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-4 END -->
+<!-- bloc-PUBLICATION END -->
 
-<!-- bloc-5 -->
-<div class="bloc l-bloc" id="bloc-5">
+<!-- bloc-REVIEW -->
+<div class="bloc l-bloc bgc-lavender-web" id="bloc-REVIEW">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
@@ -408,16 +458,19 @@
 					<strong>Review Process</strong>
 				</h3>
 				<p>
-					All papers will be reviewed following a double-blind review process with at least 2 reviewers per submission. <br>Each reviewer will be able to cast a score from 1 (lowest) to 5 (highest) and papers with average scores higher than 2.5 will be considered acceptable. <br>The final decision about acceptance/rejection will be made by the PC member according to ranking, quality and the total number of submissions. <br>Outstanding papers will be selected for an oral presentation.<br>We will select reviewers from a pool of reputable researchers in the field who have repeatedly published at venues such as MICCAI, MIDL, CVPR, ICCV, IPMI, and ECCV.&nbsp;The review process will be implemented through the CMT platform. We will use the same system to match papers to the appropriate reviewers.<br>
+					All papers will be reviewed following a double-blind review process with at least 2 reviewers per submission. <br>
+					We follow the MICCAI 2020 guideline regarding arXiv: <i>Reviewers are strongly discouraged to search arXiv for submissions they are responsible to review. Even if they come across this information accidentally, they are discouraged to use the information in formulating their informed review of submissions. arXiv papers are not considered prior work since they have not been peer-reviewed. Therefore, citations to those papers are not required and reviewers are asked to not penalize a paper that fails to cite an arXiv submission.</i><br>
+					Each reviewer will be able to cast a score from 1 (lowest) to 5 (highest) and papers with average scores higher than 2.5 will be considered acceptable. <br>
+					The final decision about acceptance/rejection will be made by the PC member according to ranking, quality and the total number of submissions. <br>Outstanding papers will be selected for an oral presentation.<br>We will select reviewers from a pool of reputable researchers in the field who have repeatedly published at venues such as MICCAI, MIDL, CVPR, ICCV, IPMI, and ECCV.&nbsp;The review process will be implemented through the CMT platform. We will use the same system to match papers to the appropriate reviewers.<br>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-5 END -->
+<!-- bloc-REVIEW END -->
 
 <!-- bloc-6 -->
-<div class="bloc bgc-lavender-web l-bloc" id="bloc-6">
+<div class="bloc l-bloc" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="offset-sm-2 col-6 col-sm-4 col-md-2 offset-md-4">
@@ -444,6 +497,54 @@
 <!-- Preloader -->
 <div id="page-loading-blocs-notifaction" class="page-preloader"></div>
 <!-- Preloader END -->
+
+<script>
+function fixNavbarIssue(){
+
+/*  Quick & dirt draft fix for the bootstrap's navbar-fixed-top issue.
+Overview
+  When you call a given section of a document (e.g. via <a href="#section"> or domain.com/page#section1) browsers show that section at the top of window. Bootstrap's navbar-fixed-top, _since it's fixed_, *overlays* first lines of content.
+  This function catches all of the <a> tags pointing to a section of the page and rewrites them to properly display content.
+  Works fine even if a # section is called from URL.
+Usage
+  Paste this function wherever you want in your document and append _fixNavbarIssue()_ to your <body>'s onload attribute.
+   
+*/
+   
+
+
+var hash = window.location.hash;
+
+// Code below fixes the issue if you land directly onto a page section (http://domain/page.html#section1)
+
+if(hash!=""){
+  $(document).scrollTop(($(hash).offset().top) - $(".fixed-top").height());  
+}
+
+// Here's the fix, if any <a> element points to a page section an offset function is called
+
+var locationHref = window.location.protocol + '//' + window.location.host + $(window.location).attr('pathname');
+var anchorsList = $('a').get();
+
+for(i=0;i<anchorsList.length;i++){
+  var hash = anchorsList[i].href.replace(locationHref,'');
+  if (hash[0] == "#" && hash != "#"){
+	var originalOnClick = anchorsList[i].onclick; // Retain your pre-defined onClick functions
+	setNewOnClick(originalOnClick,hash);
+  }
+}
+
+  function setNewOnClick(originalOnClick,hash){
+    anchorsList[i].onclick=function(){
+      $(originalOnClick);
+      $(document).scrollTop(($(hash).offset().top) - $(".fixed-top").height());
+      return false;
+    };
+  }
+}
+
+$(document).ready(fixNavbarIssue);
+</script>
 
 </body>
 </html>
